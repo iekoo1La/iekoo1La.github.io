@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="author" content="author">
+
+<meta name="generator" content="mynt v0.4">
+
+
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://latex.vercel.app/style.css">
+<style>
+   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    } 
+</style>
+
+
+    <title>Christian Sillaber</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1 id="title">Christian Sillaber</h1>
+            
+
+        </div>
+
+        
+
+
+
+        <div id="content">
+            
+
+<section>
+    <details>
+	    <summary>cs[@]christiansillaber.com</summary>
+	    <pr><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=usFj
+-----END PGP PUBLIC KEY BLOCK-----
+	    </code></pre>
+</details>
+    <a href="https://scholar.google.com/citations?user=OF4ZOL8AAAAJ&hl=en">Google Scholar</a> <br/>
+</section>
+
+
+<h1 class="unnumbered" id="publications">Publications</h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-zotero-1646" class="csl-entry" role="listitem">
+Raschauer, N., Silbernagl, R., &amp; Sillaber, C. (2024). The risk of
+retaliation for performing your tasks: <span>Zur</span>
+ordnungsgem<span>ä</span>ssen <span>Abberufung</span> des
+<span>Datenschutzbeauftragten</span> in der <span>DACHL-Region</span>.
+<em>Spektrum Des Wirtschaftsrechts</em>, <em>Online Open Access
+Journal</em>, 11–32. <a
+href="https://www.spektrum-des-wirtschaftsrechts.at/index.php?eID=tx_nawsecuredl&amp;u=0&amp;file=/uploads/tx_sdr/03_33_B3_SPWR_2024_Raschaueretal._Abberufung_Datenschutzbeauf_11-32_Druck.pdf&amp;t=1722011858&amp;hash=c7bea8bce6a5056e608107d0d590fc252a186a28">Online</a>
+</div>
+<div id="ref-csegm2024privacyCBDC" class="csl-entry" role="listitem">
+Sillaber, C., &amp; Eggen, M. (2024). Privacy in payments:
+<span>What</span> a <span>CBDC</span> can do better than commercial bank
+money. <em>Journal of Banking Law and Banking</em>, <em>36</em>(4),
+267–276. <a
+href="http://www.zbb-online.com/59961">Online</a>
+</div>
+<div id="ref-zotero-1653" class="csl-entry" role="listitem">
+Sillaber, C., &amp; Eggen, M. (2023). Der <span>Digital Euro</span>:
+<span>Ein</span> (fast) perfektes <span class="nocase">Bargeld<span
+class="nocase">ä</span>quivalent</span>? <em>Recht Digital</em>,
+501–513. <a
+href="https://beck-online.beck.de/Dokument?vpath=bibdata%2Fzeits%2Frdi%2F2023%2Fcont%2Frdi.2023.501.1.htm&amp;pos=1">Online</a>
+</div>
+<div id="ref-zotero-1656" class="csl-entry" role="listitem">
+Sillaber, C., &amp; Eggen, M. (2023). The <span>Digital Euro</span>:
+<span>An</span> (almost) perfect equivalent to cash? <em>[English
+Translation of RDi 2023, 501]</em>. <a
+href="http://dx.doi.org/10.2139/ssrn.4669669">Online</a>
+</div>
+<div id="ref-birnePrinzipienZurUebertragung2022" class="csl-entry"
+role="listitem">
+Birne, A., Sillaber, C., &amp; Eggen, M. (2022). <span>Prinzipien zur
+<span>Ü</span>bertragung von Retail CBDC</span>. <em>Recht Digital</em>,
+237–246. <a
+href="https://beck-online.beck.de/Default.aspx?typ=reference&amp;y=300&amp;b=2022&amp;n=1&amp;s=237&amp;z=RDI">Online</a>
+</div>
+<div
+id="ref-silbernaglDezentraleTransaktionsinfrastruktursystemeAls2022"
+class="csl-entry" role="listitem">
+Silbernagl, R., &amp; Sillaber, C. (2022). <span>Dezentrale
+Transaktionsinfrastruktursysteme als Dienste der
+Informationsgesellschaft</span>. <em><span>Ö</span>JZ</em>, <em>02</em>,
+53–58. <a
+href="https://www.manz.at/produkte/zeitschriften/oejz/archiv#02-2022">Online</a>
+</div>
+<div id="ref-gogelDeFiHype2021" class="csl-entry" role="listitem">
+Gogel, D., Deshmukh, S., Geest, A., Resas, D., Sillaber, C., Kevin, W.,
+Baker-Taylor, T., Cloots, A. S., Forster, B., Lazaro, J., Schär, F.,
+&amp; Sokolin, L. (2021). <em><span>DeFi Beyond</span> the
+<span>Hype</span></em>. <a
+href="https://wifpr.wharton.upenn.edu/wp-content/uploads/2021/05/DeFi-Beyond-the-Hype.pdf">Online</a>
+</div>
+<div id="ref-laimerVTDienstleister2021" class="csl-entry"
+role="listitem">
+Laimer, S., &amp; Sillaber, C. (2021). <span>VT-Dienstleister</span>. In
+<em><span>Grundsatzfragen des Liechtensteinischen TVTG</span></em> (p.
+436). Jan Sramek Verlag. <a
+href="https://www.jan-sramek-verlag.at/Buchdetails.427.0.html?&amp;buchID=424&amp;detailview=Detailinfo&amp;cHash=5d3cd0f5bd">Online</a>
+</div>
+<div id="ref-zotero-1648" class="csl-entry" role="listitem">
+Sumedha, D., André, G., David, G., Sillaber, C., &amp; Werbach, K.
+(2021). <em>Decentralized <span>Finance</span> (<span>DeFi</span>)
+<span>Policy-Maker Toolkit</span></em> [White Paper in
+Collaboration with the World Economic Forum]. <a
+href="https://www3.weforum.org/docs/WEF_DeFi_Policy_Maker_Toolkit_2021.pdf">Online</a>
+</div>
+<div id="ref-treiblmaierImpactBlockchainEcommerce2021" class="csl-entry"
+role="listitem">
+Treiblmaier, H., &amp; Sillaber, C. (2021). The impact of blockchain on
+e-commerce: A framework for salient research topics. <em>Electronic
+Commerce Research and Applications</em>, 101054. <a
+href="https://www.sciencedirect.com/science/article/pii/S1567422321000260">Online</a>
+</div>
+<div id="ref-eggenDLTHandelssystemeEinordnungZivil2020"
+class="csl-entry" role="listitem">
+Eggen, M., &amp; Sillaber, C. (2020). <span>DLT-Handelssysteme - Eine
+Einordnung in das Zivil- und Aufsichtsrecht</span>. <em>Jusletter</em>.
+<a
+href="https://jusletter.weblaw.ch/juslissues/2020/1023/dlt-handelssysteme_12f9f13e48.html__ONCE&amp;login=false">Online</a>
+</div>
+<div id="ref-sillaberDezentraleTransaktionseinheitenAls2020"
+class="csl-entry" role="listitem">
+Sillaber, C. (2020). <span>Dezentrale Transaktionseinheiten als
+E-Geld</span>. <em>Zeitschrift f<span>ü</span>r das gesamte Bank- und
+B<span>ö</span>rsenwesen</em>, <em>68</em>(4), 248. <a
+href="https://elibrary.verlagoesterreich.at/article/10.47782/oeba202004024801">Online</a>
+</div>
+<div id="ref-sillaberLayingFoundationSmart2020" class="csl-entry"
+role="listitem">
+Sillaber, C., Waltl, B., Treiblmaier, H., Gallersdörfer, U., &amp;
+Felderer, M. (2020). Laying the foundation for smart contract
+development: An integrated engineering process model. <em>Information
+Systems and e-Business Management</em>. <a
+href="http://link.springer.com/10.1007/s10257-020-00465-5">Online</a>
+</div>
+<div id="ref-sillaberMiningYourOwn2019" class="csl-entry"
+role="listitem">
+Sillaber, C. (2019). <span>Mining your own business? Betrieb dezentraler
+Systeme als GesbR</span>. <em>ecolex</em>, <em>10</em>, 849. <a
+href="https://rdb.manz.at/document/rdb.tso.LIecolex20191005">Online</a>
+</div>
+<div id="ref-sillaberExperienceDataInformation2019" class="csl-entry"
+role="listitem">
+Sillaber, C., Mussmann, A., &amp; Breu, R. (2019). Experience:
+<span>Data</span> and <span>Information Quality Challenges</span> in
+<span>Governance</span>, <span>Risk</span>, and <span>Compliance
+Management</span>. <em>Journal of Data and Information Quality</em>,
+<em>11</em>(2), 1–14. <a
+href="https://dl.acm.org/doi/10.1145/3297721">Online</a>
+</div>
+<div id="ref-treiblmaierDigitalTransformationBlockchain2019"
+class="csl-entry" role="listitem">
+Treiblmaier, H., &amp; Sillaber, C. (2019). Digital
+<span>Transformation</span> with <span>Blockchain</span> in the
+<span>Public Sector</span>. <em>Pre-<span>ICIS SIGPBS Workshop</span> on
+<span>Blockchain</span> and <span>Smart Contracts</span></em>, 6. <a
+href="https://www.researchgate.net/publication/338075326_Digital_Transformation_with_Blockchain_in_the_Public_Sector">Online</a>
+</div>
+<div id="ref-waltlBlockchainsSmartContracts2019" class="csl-entry"
+role="listitem">
+Waltl, B., Sillaber, C., Gallersdörfer, U., &amp; Matthes, F. (2019).
+Blockchains and <span>Smart Contracts</span>: <span>A Threat</span> for
+the <span>Legal Industry</span>? In H. Treiblmaier &amp; R. Beck (Eds.),
+<em>Business <span>Transformation</span> through
+<span>Blockchain</span>: <span>Volume II</span></em> (pp. 287–315).
+Springer International Publishing. <a
+href="https://doi.org/10.1007/978-3-319-99058-3_11">Online</a>
+</div>
+<div id="ref-treiblmaierDigitalTransformationBlockchain2019a"
+class="csl-entry" role="listitem">
+Treiblmaier, H., &amp; Sillaber, C. (2019, December). <em>Digital
+<span>Transformation</span> with <span>Blockchain</span> in the
+<span>Public Sector</span></em>.
+</div>
+<div id="ref-brunnerDataDrivenDecisionSupport2018" class="csl-entry"
+role="listitem">
+Brunner, M., Sillaber, C., Mussmann, A., Lukas, D., &amp; Breu, R.
+(2018). Towards <span>Data-Driven Decision Support</span> for
+<span>Organizational IT Security Audits</span>. <em>Journal Information
+Technology</em>.
+</div>
+<div id="ref-ilvonenReconcilingDigitalTransformation2018"
+class="csl-entry" role="listitem">
+Ilvonen, I., Thalmann, S., Manhart, M., &amp; Sillaber, C. (2018).
+Reconciling digital transformation and knowledge protection: A research
+agenda. <em>Knowledge Management Research &amp; Practice</em>,
+<em>16</em>(2), 235–244. <a
+href="https://doi.org/10.1080/14778238.2018.1445427">Online</a>
+</div>
+<div id="ref-sauerweinShadowCyberThreat2018" class="csl-entry"
+role="listitem">
+Sauerwein, C., Sillaber, C., &amp; Breu, R. (2018). Shadow <span>Cyber
+Threat Intelligence</span> and their <span>Usage</span> in
+<span>Information Security</span> and <span>Risk Management
+Processes</span>. <em>Multikonferenz <span>Wirtschaftsinformatik</span>
+(<span>MKWI</span>)</em>, 1333–1344. <a
+href="http://mkwi2018.leuphana.de/wp-content/uploads/MKWI_18.pdf">Online</a>
+</div>
+<div id="ref-sauerweinTweetAdvantageEmpirical2018" class="csl-entry"
+role="listitem">
+Sauerwein, C., Sillaber, C., M. Huber, M., Mussmann, A., &amp; Breu, R.
+(2018). The <span>Tweet Advantage</span>: <span>An Empirical
+Analysis</span> of 0-<span>Day Vulnerability Information Shared</span>
+on <span>Twitter</span>. <em>33rd <span>IFIP TC</span> 11
+<span>International Conference</span>, <span>SEC</span> 2018,
+<span>Held</span> at the 24th <span>IFIP World Computer Congress</span>,
+<span>WCC</span> 2018, <span>Proceedings</span></em>, 201–215.
+</div>
+<div id="ref-sillaberPostMergerITIntegration2018" class="csl-entry"
+role="listitem">
+Sillaber, C., Huber, N., Mussmann, A., &amp; Breu, R. (2018).
+Post-<span>Merger IT Integration Success</span> and <span>Performance
+Measurement</span>: <span>A Systematic Literature Study</span>.
+<em>Digital <span>Disruption</span> 24th <span>Americas
+Conference</span> on <span>Information Systems</span>,
+<span>AMCIS</span> 2018, <span>New Orleans</span>, <span>LA</span>,
+<span>USA</span>, <span>August</span> 16-18 2018</em>. <a
+href="https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1435&amp;context=amcis2018">Online</a>
+</div>
+<div id="ref-sillaberMaturityModelInterOrganizational2018"
+class="csl-entry" role="listitem">
+Sillaber, C., Sauerwein, C., Mussmann, A., &amp; Breu, R. (2018).
+Towards a <span>Maturity Model</span> for <span>Inter-Organizational
+Cyber Threat Intelligence Sharing</span>: <span>A Case Study</span> of
+<span>Stakeholders</span>’ <span>Expectations</span> and
+<span>Willingness</span> to <span>Share</span>. <em>Multikonferenz
+<span>Wirtschaftsinformatik</span> (<span>MKWI</span>)</em>, 1409–1420.
+<a
+href="http://mkwi2018.leuphana.de/wp-content/uploads/MKWI_195.pdf">Online</a>
+</div>
+<div id="ref-sillaberIntegratedProcessModel2018" class="csl-entry"
+role="listitem">
+Sillaber, C., Waltl, B., Treiblmaier, H., Gallersdörfer, U., &amp;
+Felderer, M. (2018). Towards an <span>Integrated Process Model</span>
+for <span>Smart Contract Engineering</span>. <em>Pre-<span>ICIS
+SIGBPS</span> 2018 <span>Workshop</span> on <span>Blockchain</span> and
+<span>Smart Contracts</span></em>, 82–86.
+</div>
+<div id="ref-treiblmaierBlockchainInducedDigitalTransformation2018"
+class="csl-entry" role="listitem">
+Treiblmaier, H., &amp; Sillaber, C. (2018). Blockchain-<span>Induced
+Digital Transformation</span> in the <span>Public Sector</span>.
+<em>Pre-<span>ICIS Workshop MISQE</span>: <span>Delivering Business
+Value</span> Through <span>Enterprise Blockchain
+Applications</span></em>.
+</div>
+<div id="ref-breuSicherAusSecurityFalle2017" class="csl-entry"
+role="listitem">
+Breu, R., Brunner, M., &amp; Sillaber, C. (2017). Sicher aus der
+<span>Security-Falle</span>. <em>Eisenbahn Ingenieur Kompendium</em>,
+<em>2017</em>, 304–315.
+</div>
+<div id="ref-brunnerAutomationInformationSecurity2017" class="csl-entry"
+role="listitem">
+Brunner, M., Sillaber, C., &amp; Breu, R. (2017). Towards
+<span>Automation</span> in <span>Information Security Management
+Systems</span>. <em>2017 <span>IEEE International Conference</span> on
+<span>Software Quality</span>, <span>Reliability</span> and
+<span>Security</span> (<span>QRS</span>)</em>, 160–167. <a
+href="https://doi.org/10.1109/QRS.2017.26">Online</a>
+</div>
+<div id="ref-mitterdorferAutomatisierteComplianceChecksAm2017"
+class="csl-entry" role="listitem">
+Mitterdorfer, M., Sillaber, C., &amp; Gamper, L. (2017). Automatisierte
+<span>Compliance-Checks</span> am <span>Beispiel</span> kommerzieller
+<span>E-Mail-Newsletter</span>. In E. Schweighofer, F. Kummer, W.
+Hötzendorfer, &amp; C. Sorge (Eds.), <em>Internationales
+<span>Rechtsinformatik Symposium IRIS</span> 2017</em> (pp. 643–651).
+OCG.
+</div>
+<div id="ref-mooreAssessingICTSecurity2017" class="csl-entry"
+role="listitem">
+Moore, T. W., Probst, C. W., Rannenberg, K., &amp; Van Eeten, M. (2017).
+<em>Assessing <span>ICT Security Risks</span> in <span>Socio-Technical
+Systems</span> (<span>Dagstuhl Seminar</span> 16461)</em>. 27 pages. <a
+href="http://drops.dagstuhl.de/opus/volltexte/2017/7039/">Online</a>
+</div>
+<div id="ref-peschDistributedLedgerJoint2017" class="csl-entry"
+role="listitem">
+Pesch, P. J., &amp; Sillaber, C. (2017). Distributed
+<span>Ledger</span>, <span>Joint Control</span>? –
+<span>Blockchains</span> and the <span>GDPR</span>’s <span>Transparency
+Requirements</span>. <em>Computer Law Review International</em>,
+<em>18</em>(6). <a
+href="https://www.degruyter.com/document/doi/10.9785/cri-2017-0602/html">Online</a>
+</div>
+<div id="ref-sauerweinThreatIntelligenceSharing2017" class="csl-entry"
+role="listitem">
+Sauerwein, C., Sillaber, C., Mussmann, A., &amp; Breu, R. (2017). Threat
+<span>Intelligence Sharing Platforms</span>: <span>An Exploratory
+Study</span> of <span>Software Vendors</span> and <span>Research
+Perspectives</span>. In J. M. Leimeister &amp; W. Brenner (Eds.),
+<em>Towards <span>Thought Leadership</span> in <span>Digital
+Transformation</span>: 13. <span>Internationale Tagung
+Wirtschaftsinformatik</span>, <span>WI</span> 2017,
+<span>St</span>.<span>Gallen</span>, <span>Switzerland</span>,
+<span>February</span> 12-15, 2017.</em> <a
+href="http://aisel.aisnet.org/wi2017/track08/paper/3">Online</a>
+</div>
+<div id="ref-sillaberSocioTechnicalArtefactDrivenSecurity2017"
+class="csl-entry" role="listitem">
+Sillaber, C. (2017). Socio-<span>Technical-Artefact Driven
+Security</span> and <span>Risk Analysis</span>. <em>Dagstuhl Report on
+Assessing ICT Security Risks in Socio-Technical Systems</em>,
+<em>6</em>(11), 81. <a
+href="http://drops.dagstuhl.de/opus/volltexte/2017/7039">Online</a>
+</div>
+<div id="ref-sillaberLifeCycleSmart2017a" class="csl-entry"
+role="listitem">
+Sillaber, C., &amp; Waltl, B. (2017). Life <span>Cycle</span> of
+<span>Smart Contracts</span> in <span>Blockchain Ecosystems</span>.
+<em>Datenschutz Und Datensicherheit - DuD</em>, <em>41</em>(8), 497–500.
+<a
+href="http://link.springer.com/10.1007/s11623-017-0819-7">Online</a>
+</div>
+<div id="ref-sillaberLifeCycleSmart2017" class="csl-entry"
+role="listitem">
+Sillaber, C., &amp; Waltl, B. (2017). The <span>Life Cycle</span> of
+<span>Smart Contracts</span> in <span>Blockchain Ecosystems</span>.
+<em>Datenschutz Und Datensicherheit - DuD</em>, <em>41</em>(8), 497–500.
+<a
+href="https://csillaber.q-e.at/pdfs/SW_DuD_SmartContracts_preprint.pdf">Online</a>
+</div>
+<div id="ref-breuSecurityImProduktLifecycle2016" class="csl-entry"
+role="listitem">
+Breu, R., Sillaber, C., &amp; Brunner, M. (2016). <span>Security im
+Produkt-Lifecycle – L<span>ä</span>stige Pflicht oder Chance?</span>
+<em>Informatik-Spektrum</em>, <em>39</em>(5), 353–361. <a
+href="http://dx.doi.org/10.1007/s00287-015-0938-1">Online</a>
+</div>
+<div id="ref-sillaberDataQualityManagement2016" class="csl-entry"
+role="listitem">
+Sillaber, C. (2016). <em>Data <span>Quality Management</span> in
+<span>IS Security Risk Management Processes</span></em> [PhD thesis].
+University of Innsbruck.
+</div>
+<div id="ref-sillaberInformationSystemAgnostic2016" class="csl-entry"
+role="listitem">
+Sillaber, C., Graf, A., &amp; Breu, R. (2016). An information system
+agnostic environment for reproducible experiments. <em>European
+<span>Conference</span> on <span>Information Systems</span></em>, Tool
+paper.
+</div>
+<div id="ref-sillaberDataQualityChallenges2016" class="csl-entry"
+role="listitem">
+Sillaber, C., Sauerwein, C., Mussmann, A., &amp; Breu, R. (2016). Data
+<span>Quality Challenges</span> and <span>Future Research
+Directions</span> in <span>Threat Intelligence Sharing Practice</span>.
+<em>Proceedings of the 2016 <span>ACM</span> on <span>Workshop</span> on
+<span>Information Sharing</span> and <span>Collaborative
+Security</span></em>, 65–70. <a
+href="https://dl.acm.org/doi/10.1145/2994539.2994546">Online</a>
+</div>
+<div id="ref-sillaberShadowThreatIntelligence2016" class="csl-entry"
+role="listitem">
+Sillaber, C., Sauerwein, C., Mussmann, A., &amp; Breu, R. (2016). Shadow
+<span>Threat Intelligence Sources</span> and their impact on
+<span>Security</span> and <span>Risk Management Processes</span>.
+<em>Proceedings of the 2016 <span>SIGSEC Workshop</span> on
+<span>Information Security</span> and <span>Privacy</span></em>. <a
+href="http://aisel.aisnet.org/wisp2016/">Online</a>
+</div>
+<div id="ref-thalmannKnowledgeProtectionDigital2016" class="csl-entry"
+role="listitem">
+Thalmann, S., Manhart, M., Iloven, I., &amp; Sillaber, C. (2016).
+Knowledge <span>Protection</span> for <span>Digital Innovations</span>:
+<span>Integrating Six Perspectives</span>. <em>Proceedings of the 2016
+<span>SIGSEC Workshop</span> on <span>Information Security</span> and
+<span>Privacy</span></em>. <a
+href="http://aisel.aisnet.org/wisp2016/">Online</a>
+</div>
+<div id="ref-sillaberIdentifyingBlindSpots2015" class="csl-entry"
+role="listitem">
+Sillaber, C., &amp; Breu, R. (2015). Identifying <span>Blind
+Spots</span> in <span>IS Security Risk Management Processes Using
+Qualitative Model Analysis</span>. In T. Tryfonas &amp; I. Askoxylakis
+(Eds.), <em>Human <span>Aspects</span> of <span>Information
+Security</span>, <span>Privacy</span>, and <span>Trust</span></em> (Vol.
+19, pp. 252–259). Springer International Publishing. <a
+href="http://dx.doi.org/10.1007/978-3-319-20376-8_23">Online</a>
+</div>
+<div id="ref-sillaberUsingBusinessProcess2015" class="csl-entry"
+role="listitem">
+Sillaber, C., &amp; Breu, R. (2015). Using <span>Business Process Model
+Awareness</span> to improve <span>Stakeholder Participation</span> in
+<span>Information Systems Security Risk Management Processes</span>.
+<em>Smart <span>Enterprise Engineering</span>: 12. <span>Internationale
+Tagung Wirtschaftsinformatik</span>, <span>WI</span> 2015, <span
+class="nocase">Osnabr<span class="nocase">ü</span>ck</span>,
+<span>Germany</span>, <span>March</span> 4-6, 2015.</em>, 1177–1190. <a
+href="http://www.wi2015.uni-osnabrueck.de/Files/WI2015-D-14-00044.pdf">Online</a>
+</div>
+<div id="ref-sillaberUsingStakeholderKnowledge2015" class="csl-entry"
+role="listitem">
+Sillaber, C., &amp; Breu, R. (2015). Using <span>Stakeholder
+Knowledge</span> for <span>Data Quality Assessment</span> in <span>IS
+Security Risk Management Processes</span>. <em>Proceedings of the 2015
+<span>ACM SIGMIS Conference</span> on <span>Computers</span> and
+<span>People Research</span></em>, 153–159. <a
+href="http://doi.acm.org/10.1145/2751957.2751960">Online</a>
+</div>
+<div id="ref-sillaberDataMiningOGH2014" class="csl-entry"
+role="listitem">
+Sillaber, C. (2014). Data <span>Mining</span> in <span>OGH
+Entscheidungen</span>. In H. Barta, M. Ganner, &amp; C. Voithofer
+(Eds.), <em>Rechtstatsachenforschung - <span>Heute Tagungsband</span>
+2013</em>. innsbruck university press.
+</div>
+<div id="ref-sillaberQualityMattersSystematizing2014" class="csl-entry"
+role="listitem">
+Sillaber, C., &amp; Breu, R. (2014). Quality <span>Matters</span>:
+<span>Systematizing Quality Deficiencies</span> in the
+<span>Documentation</span> of <span>Business Security
+Requirements</span>. <em>Availability, <span>Reliability</span> and
+<span>Security</span> (<span>ARES</span>), 2014 <span>Ninth
+International Conference</span> on</em>, 251–258. <a
+href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6980289">Online</a>
+</div>
+<div id="ref-sillaberFrameworkManagementIntraorganizational2014"
+class="csl-entry" role="listitem">
+Sillaber, C., Brunner, M., &amp; Breu, R. (2014). A framework for the
+management of intra-organizational security process standardization.
+<em>Proceedings of the 7th <span>International Conference</span> on
+<span>Interoperability</span> for <span>Enterprise Systems</span> and
+<span>Applications</span></em>, 112–125.
+</div>
+<div id="ref-sillaberImprovingNearDuplicateDetection2013"
+class="csl-entry" role="listitem">
+Sillaber, C., &amp; Breu, R. (2013). Improving <span>Near-Duplicate
+Detection</span> in <span>Multi-Layered Collaborative Requirements
+Engineering Discussions Through Discussion Clustering</span>. In <em>The
+8th <span>International Conference</span> on <span>Knowledge
+Management</span> in <span>Organizations</span></em> (pp. 249–261).
+Springer Netherlands.
+</div>
+<div id="ref-sillaberImpactKnowledgeSharing2013" class="csl-entry"
+role="listitem">
+Sillaber, C., &amp; Breu, R. (2013). The <span>Impact</span> of
+<span>Knowledge Sharing Platforms</span> in <span>Distributed
+Requirements Engineering Scenarios</span>: <span>A Systematic
+Review</span>. In <em>The 8th <span>International Conference</span> on
+<span>Knowledge Management</span> in <span>Organizations</span></em>
+(pp. 579–591). Springer Netherlands.
+</div>
+<div id="ref-sillaberArchitectureCollaborativeCross2013"
+class="csl-entry" role="listitem">
+Sillaber, C., Brunner, M., &amp; Breu, R. (2013). Towards an
+<span>Architecture</span> for <span>Collaborative
+Cross</span>–<span>Organizational Security Requirements
+Management</span>. In <em>Business <span>Information Systems</span></em>
+(pp. 199–210). Springer Berlin Heidelberg.
+</div>
+<div id="ref-sillaberTrustFrameworkCould2012" class="csl-entry"
+role="listitem">
+Sillaber, C. (2012). <em>A <span>Trust Framework</span> for <span>Could
+Service Providers</span></em> [Master’s thesis]. University of
+Innsbruck, School of Management.
+</div>
+<div id="ref-sillaberSocialDrivenRequirements2012" class="csl-entry"
+role="listitem">
+Sillaber, C. (2012). <em>Social <span>Driven Requirements Engineering
+Processes</span> in <span>Organizational Environments</span></em>
+[Master’s thesis]. Leopold Franzens University of Innsbruck.
+</div>
+<div id="ref-sillaberManagingLegalCompliance2012" class="csl-entry"
+role="listitem">
+Sillaber, C., &amp; Breu, R. (2012). Managing legal compliance through
+security requirements across service provider chains: <span>A</span>
+case study on the <span>German Federal Data Protection Act</span>.
+<em>Informatik 2012: <span>Proceedings</span> Der
+<span>GI</span>/<span>GMDS-Jahrestagung</span></em>, 1306–1317.
+</div>
+<div id="ref-sillaberSupportingSocialDriven2012" class="csl-entry"
+role="listitem">
+Sillaber, C., Chimiak-Opoka, J., &amp; Breu, R. (2012). Supporting
+<span>Social Driven Requirements Engineering Processes</span> through
+<span>Knowledge Sharing Platforms</span>. <em>Software
+<span>Engineering</span>/781: <span>Control Applications</span></em>.
+</div>
+<div id="ref-sillaberUnderstandingModelingUsage2012" class="csl-entry"
+role="listitem">
+Sillaber, C., Chimiak-Opoka, J., &amp; Breu, R. (2012). Understanding
+and <span>Modeling Usage Decline</span> in <span>Social Networking
+Services</span>. <em>7th International Conference on Knowledge
+Management in Organizations: Service and Cloud Computing</em>,
+<em>7</em>, 377–388.
+</div>
+<div id="ref-sillaberD2SoftwareModeldriven2012" class="csl-entry"
+role="listitem">
+Sillaber, C., Kalb, P., &amp; Breu, R. (2012). <em>D2.3
+<span>Software</span> for a model-driven policy design</em> (p. 49).
+</div>
+<div id="ref-sillaberNeueDarlehensrechtABGB2010" class="csl-entry"
+role="listitem">
+Sillaber, C. (2010). <em>Das neue <span>Darlehensrecht</span> des
+<span>ABGB</span></em> [Diplomarbeit]. Leopold Franzens University of
+Innsbruck.
+</div>
+<div id="ref-zotero-1647" class="csl-entry" role="listitem">
+Sillaber, C., &amp; Eggen, M. (n.d.). Privacy in payments:
+<span>What</span> a <span>CBDC</span> can do better than commercial bank
+money. <em>ZBB</em>, <em>[Forthcoming 2024]</em>.
+</div>
+</div>
+
+<section>
+	<h1>Misc</h1>
+
+
+<div>
+
+My Erdős number is 4: Felderer
+<a href="https://doi.org/10.1007/s13222-022-00426-x">&#x2192;</a> 
+Andrzejak
+<a href="https://doi.org/10.1145/276884.276906">&#x2192;</a> 
+Aronov
+<a href="https://www.wikidata.org/entity/Q59701047">&#x2192;</a> 
+Erdős
+</div>
+</section>
+
+
+    <footer>
+Innsbruck
+        </footer>
+</body>
+</html>
