@@ -1,0 +1,41 @@
+.bib-entry {
+    display: grid;
+    grid-template-columns: 110px auto;
+    column-gap: 20px;
+    margin-bottom: 1em;
+}
+
+.bib-year,
+.bib-month {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #666;
+}
+
+.bib-year {
+    font-weight: 600;
+}
+.bib-title {
+    font-weight: 600;
+    font-size: 1em;
+}
+.bib-authors {
+    font-size: 0.8em;
+    color: #444;
+    margin-top: 0.15em;
+}
+.bib-venue {
+    font-size: 0.75em;
+    font-style: italic;
+    color: #666;
+    margin-top: 0.1em;
+}
+.bib-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bib-title a:hover {
+    text-decoration: underline;
+}
